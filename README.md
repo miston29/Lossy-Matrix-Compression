@@ -31,8 +31,16 @@ An image is treated as three separate matrices for Red, Green, and Blue channels
 These six vectors that are formed are stored in a .txt file along with their initial dimensions which requires less space than the original image.
 The image can then be reconstructed from these vectors, resulting in a lossy reconstruction of the original image.
 
+example usage
+Original Image:
+![original_image](https://github.com/miston29/Lossy-Matrix-Compression/blob/main/original_image.jpg)
+
+recreating image from vectors:
+![reformed_image](https://github.com/miston29/Lossy-Matrix-Compression/blob/main/reformed_image.jpg)
+
 ### Key Concepts
 
   * **Lossy Compression:** This is a data compression method where some information is lost in the process. The goal is to minimize the amount of data needed to represent a piece of content, at the cost of a reduction in quality.
   * **Matrix Decomposition:** The process of factoring a matrix into a product of matrices. In this case, we are approximating a matrix as the outer product of two vectors.
   * **Iterative Approximation:** A method of solving a problem by finding successive approximations to the solution, starting from an initial guess.
+
